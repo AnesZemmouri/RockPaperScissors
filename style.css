@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #b3c8cf;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #bed7dc;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+  margin-top: 0;
+  color: #1d2d30;
+}
+
+.choices button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #e5ddc5;
+  color: #1d2d30;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.choices button:hover {
+  background-color: #F1EEDC;
+}
+
+.result,
+.score {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #1d2d30;
+}
+
+.result span,
+.score span {
+  font-weight: bold;
+}
+footer p{
+    color: #282828;
+    color: rgba(0, 0, 0, 0.5);
+}
